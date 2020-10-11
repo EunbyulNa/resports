@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+
+body {
+color: #333;
+font-size: 0.75em;
+font-family: sans-serif;
+}
+
+header {
+  background: url('img/bg_header.gif') repeat-x;
+
+}
+
+#header {
+  width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+#header .util_left {
+ float: left;
+ margin-top: 22px;
+}
+
+.util_left a {
+  color: #fff;
+  font-family: Arial;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.util_left a:hover {
+  color: #d90094;
+}
+
+.util_left .join{
+position: relative;
+}
+
+.util_left .join span {
+  position:absolute;
+   top: 15px;
+   left:-20px;
+  width: 68px;
+  height: 21px;
+  background: url('img/bg_join_point.png') no-repeat;
+  color: #ff6490;
+  font-size: 0.7em;
+  text-align: center;
+  padding-top: 8px;
+}
+
+h1.logo {
+position: absolute;
+left: 50%;
+top: 15px;
+
+}
+
+h1.logo a {
+  display: block;
+  width: 168px;
+  height: 38px;
+  background: url('img/logo.png');
+  text-indent: -9999px;
+  margin-left: -84px;
+}
+
+#header .util_right {
+float: right;
+margin-top: 14px;
+}
+
+.util_right a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  margin-left:4px;
+}
+
+.util_right .instagram {
+  background: url('img/ico_instagram.png') no-repeat;
+}
+
+.util_right .cart{
+    background: url('img/ico_cart.gif') no-repeat;
+    position: relative;
+}
+
+.util_right .cart span {
+position: absolute;
+top:0;
+left:-10px;
+width: 20px;
+height: 20px;
+border-radius:10px;
+background-color: #D90094;
+color: #fff;
+text-align: center;
+line-height: 20px;
+text-indent: 0;
+
+
+}
+
+.util_right .search{
+    background: url('img/ico_search.png') no-repeat;
+}
+
+
+nav {
+  width: 960px;
+  height: 50px;
+  margin: auto;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  text-align: center;
+}
+
+nav ul.gnb {
+display: inline-block;
+}
+
+nav ul.gnb > li.depth1 {
+float: left;
+margin: 0 28px;
+}
+
+li.depth1 > a {
+display: block;
+line-height: 50px;
+color: #000;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+.depth1-1:hover {
+  color: rgb(0,154,159);
+}
+
+.depth1-2:hover {
+  color: rgb(125,60,224);
+}
+.depth1-3:hover {
+  color: rgb(255,224,46);
+}
+.depth1-4:hover {
+  color: rgb(255,139,60);
+}
+.depth1-5:hover {
+  color: rgb(150,129,30);
+}
+.depth1-6:hover {
+  color: rgb(225,2,149);
+}
+
+
+#main_visual {
+  width: 960px;
+  margin: auto;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+#sitemap {
+
+}
+
+footer {
+  width: 960px;
+  margin: auto;
+}
